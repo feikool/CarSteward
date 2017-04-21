@@ -9,15 +9,32 @@
     所有的img、js、css 文件 都以自己姓名缩写为前缀如 rlm_index.css 
     多人开发同一个页面，css选择器请加自己姓名缩写前缀防止冲突
     图片，选择器 名称命名均采用类似 rlm-logo.jpg  rlm-nav方式命名
-    注意： 统一采用下划线 hnz_index.css 
-    注释问题 公共组件相关必须把注册标好
-    开发过程中,请加好注释说明，方便后台人员套模板
+    注意： 统一采用下划线 rlm_index.css 
+    注释问题 公共组件相关必须把注释标好
     
-## bass.scss    
-变量描述 | 变量名
+## 组件APi    方便
+
+功能 | 组件由API
 --- | ---
-页面公共颜色 | $commonColor
-头部高度 | $commonHeight
+车友汇 | <Friend/>
+
+## bass.scss  
+#### 有内宽的加类名 container ，个人的类名不要起container；
+
+
+    |---特大号字体                               $large-font;
+    |---导航栏文字,模块标题                      $nav-font;
+    |---文章标题                                 $title-font;
+    |---内容文字                                 $content-font;
+    |---备注文字                                 $sub-font;
+    |---相应的英文字体                           $XXX-en-font;(实例：文章标题对应的英文字体为$title-en-font;)
+    |---导航栏,标题栏和重要的标题文字            $nav-color;
+    |---按钮及想要突出的文字                     $button-color;
+    备注:$nav-color,$button-color为渐变颜色，使用方法background-image:$nav-color;
+    |---辅助,次要的文字信息                      $title-color;
+    |---段落信息,引导词                          $content-color;
+    |---装饰线条及版块分割                       $line-color;
+    |---背景色                                   $bg-color;
 
 ## 功能划分
 负责人 | 功能 | 模块
@@ -29,20 +46,28 @@
 任黎敏| 车友汇 |  Friend
 郭建龙 | 个人中心 | Personal 
 
+## 根目录
+描述 | 文件名
+--- | ---
+Admin | php相关
+Data | sql数据相关
+public | react 需要的html
+src | 开发目录
+.gitignore |  git忽略文件
+package.json | 项目配置文件
+README.md | 工程描述文件
 
 ## 开发Src目录结构
     /-------------------
-    |--- Admin   php数据查询管理相关
+    |--- Static  公共base.scss icon
     |
     |--- Components  组件相关
-    |
-    |--- Data   数据库相关
     |
     |--- App.js  首页路由
     |
     |--- index.js  Root入口
     |
-    |--- base.scss  公共scss样式
+    |
 
 ## Components  目录结构
     /-------------------
