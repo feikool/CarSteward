@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="997eb090-2ef9-4c43-bbe9-ed64f56ba019" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Friend/friend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Personal/personal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Steward/steward.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Admin/Controller/控制php.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Admin/Model/数据查询模型.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Components/Index/首页.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Components/Personal/个人中心.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Components/Steward/车管家.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Data/sql语句.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Static/base.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Components/Common/公共组件.html" afterPath="$PROJECT_DIR$/src/Components/Common/Css/rlm_floor.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Components/Friend/车友会.html" afterPath="$PROJECT_DIR$/src/Components/Index/index.js" />
-    </list>
+    <list default="true" id="997eb090-2ef9-4c43-bbe9-ed64f56ba019" name="默认" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -313,12 +297,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492756884682</updated>
-      <workItem from="1492756886894" duration="6045000" />
+      <workItem from="1492756886894" duration="6201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6045000" />
+    <option name="totallyTimeSpent" value="6201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
