@@ -12,14 +12,12 @@
     注意： 统一采用下划线 rlm_index.css 
     注释问题 公共组件相关必须把注释标好
     
-## 组件APi    方便
+## 组件API    (方便组件重用)
 
 功能 | 组件由API
 --- | ---
-首页 | Index
-车管家 | Steward
 车友汇 | <Friend/>
-个人中心 | <Personal/>
+
 ## bass.scss  
 #### 有内宽的加类名 container ，个人的类名不要起container；
 
@@ -37,6 +35,26 @@
     |---段落信息,引导词                          $content-color;
     |---装饰线条及版块分割                       $line-color;
     |---背景色                                   $bg-color;
+
+## 数据库建立
+### 库名：CarSteward
+#### 连接数据库DOPDO
+
+方法描述 | 方法名
+---|---
+查询所有 | fetchAll
+单行查询 | fetch
+添加数据 | insert
+删除数据 | delete
+更新数据 | update
+
+#### 框架Framework
+
+方法描述 | 方法名
+---|---
+输出json格式数据 | json
+
+
 
 ## 功能划分
 负责人 | 功能 | 模块
@@ -100,6 +118,6 @@ README.md | 工程描述文件
     |
 
 ## 项目更新日志
-> 2017-4-21
- 1. 项目目录搭建
- 2. Tab路由切换
+> 2017-4-21 
+1. 项目目录搭建
+2. Tab路由切换
