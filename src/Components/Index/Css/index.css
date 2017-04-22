@@ -1,0 +1,89 @@
+.hyf-index {
+  width: 100%;
+  height: 100%; }
+
+.hyf-header {
+  height: 0.88rem;
+  background: #1D9DE6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .hyf-header > a {
+    font-size: .4rem;
+    line-height: .8rem;
+    color: #fff; }
+  .hyf-header .hyf-header-center {
+    font-size: 0.32rem;
+    display: flex; }
+    .hyf-header .hyf-header-center .hyf-center-left, .hyf-header .hyf-header-center .hyf-center-right {
+      width: .6rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .hyf-header .hyf-header-center .hyf-center-left i, .hyf-header .hyf-header-center .hyf-center-right i {
+        display: inline-block;
+        width: .06rem;
+        height: .06rem;
+        background: #fff;
+        border-radius: 50%; }
+    .hyf-header .hyf-header-center .hyf-center-left i:nth-of-type(2) {
+      width: .09rem;
+      height: .09rem; }
+    .hyf-header .hyf-header-center .hyf-center-left i:nth-of-type(3) {
+      width: .1rem;
+      height: .1rem; }
+    .hyf-header .hyf-header-center .hyf-center-right i:nth-of-type(2) {
+      width: .09rem;
+      height: .09rem; }
+    .hyf-header .hyf-header-center .hyf-center-right i:nth-of-type(1) {
+      width: .1rem;
+      height: .1rem; }
+    .hyf-header .hyf-header-center .hyf-center-center {
+      margin: 0 .1rem;
+      color: #fff;
+      letter-spacing: 0.02rem; }
+
+.hyf-banner-main {
+  height: 3.6rem;
+  position: relative;
+  margin-bottom: 0.12rem; }
+  .hyf-banner-main .hyf-banner-img {
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .hyf-banner-main .hyf-banner-img a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .hyf-banner-main .hyf-banner-img a img {
+        width: 100%;
+        height: 100%; }
+  .hyf-banner-main .hyf-banner-list {
+    position: absolute;
+    bottom: .13rem;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .hyf-banner-main .hyf-banner-list li {
+      width: .14rem;
+      height: .14rem;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      box-sizing: border-box;
+      margin-left: 0.18rem; }
+    .hyf-banner-main .hyf-banner-list li.active {
+      background: #fff; }
+
+.hyf-speedy {
+  height: 2.2rem;
+  margin-bottom: 0.12rem; }
+  .hyf-speedy .hyf-speedy-main {
+    width: 100%;
+    height: 100%;
+    background: #fff; }
