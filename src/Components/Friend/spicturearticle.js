@@ -6,7 +6,7 @@ class SPictureArticle extends Component{
             <div className="spicturearticle">
                 <div className="rlm-user">
                     <div className="rlm-user-head">
-                        <img src="" alt=""/>
+
                     </div>
                 </div>
             </div>

@@ -42,9 +42,6 @@
       margin: 0 .1rem;
       letter-spacing: .02rem; }
 
-.rlm-main-wrap {
-  height: 100vh; }
-
 .rlm-main-banner-wrap {
   height: 3.6rem;
   background: url("../Imgs/rlm-main-banner.png") no-repeat center;
@@ -86,3 +83,12 @@
       display: block; }
     .rlm-main-btn-wrap > .rlm-main-btn-item span {
       font-size: .24rem; }
+
+.spicturearticle {
+  background: #fff; }
+
+.rlm-user-head {
+  width: .9rem;
+  height: .9rem;
+  background: url("../Imgs/rlm-user-head.png") no-repeat center;
+  background-size: 100%; }
