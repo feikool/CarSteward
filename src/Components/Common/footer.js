@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // 路由组件
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 // 引入样式
-import '../../Static/Css/icon.css'
 import './Css/rlm_floor.css';
 // 首页
 import Index from '../Index/index';

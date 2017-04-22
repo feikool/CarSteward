@@ -28,7 +28,6 @@ class Main extends Component{
                         <span>车社区</span>
                     </a>
                 </div>
-                <Record/>
             </div>
         )
     }
