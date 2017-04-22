@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import './Css/rlm_friend.scss';
+import Header from './header';
 class Friend extends Component{
     render(){
         return(
-            <div>车友汇</div>
+            <div className="rlm-friend">
+                <Header/>
+            </div>
         )
     }
 }
