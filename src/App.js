@@ -9,6 +9,10 @@ import Index from './Components/Index/index';
 import Steward from './Components/Steward/steward';
 // 车友汇
 import Frined from './Components/Friend/friend';
+// 车常识
+import General from './Components/Friend/general';
+// 车友汇详情
+import Detailer from './Components/Friend/friend_detailed';
 // 个人中心
 import Personal from './Components/Personal/personal';
 // 发帖页面
@@ -27,6 +31,8 @@ class App extends Component {
              <Route exact path="/" component={Index}/>
              <Route path="/steward" component={Steward}/>
              <Route path="/frined" component={Frined}/>
+             <Route path="/general" component={General}/>
+             <Route path="/detailer" component={Detailer}/>
              <Route path="/personal" component={Personal}/>
              <Route path="/editpage" component={EditPage}/>
            </div>

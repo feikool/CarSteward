@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Record from './record';
 import Edit from '../Common/edit';
+import {Link} from 'react-router-dom';
 class Main extends Component{
     render(){
         return(
@@ -12,10 +13,10 @@ class Main extends Component{
                     </div>
                 </div>
                 <div className="rlm-main-btn-wrap container">
-                    <a href="#" className="rlm-main-btn-item">
+                    <Link to="/general" className="rlm-main-btn-item">
                         <i></i>
                         <span>车常识</span>
-                    </a>
+                    </Link>
                     <a href="#" className="rlm-main-btn-item">
                         <i></i>
                         <span>车社区</span>
