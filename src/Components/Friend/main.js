@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Record from './record';
+import Edit from '../Common/edit';
 class Main extends Component{
     render(){
         return(
@@ -29,6 +30,7 @@ class Main extends Component{
                     </a>
                 </div>
                 <Record/>
+                <Edit/>
             </div>
         )
     }
