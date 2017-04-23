@@ -1,8 +1,14 @@
 import React, {Component} from 'react';
 import Icon from 'antd/lib/icon';
+import 'antd/dist/antd.min.css';
+
+import './Css/index.css';
+
 //导航组件
-import { Link } from 'react-router-dom';
+import Header from './header';
+import {  Link } from 'react-router-dom';
 //
+
 
 class Banner extends Component {
     render() {
@@ -26,25 +32,30 @@ class Banner extends Component {
 class Speedy extends Component {
     render() {
         return (
-                <div className="hyf-speedy container">
-                    <ul className="hyf-speedy-main">
-                        <li className="hyf-speedy-con">
-                            <Link to="/flashsale">
-                                <div className="hyf-speed-img"></div>
-                                <p className="title">限时抢购</p>
-                            </Link>
-                        </li>
-                        <li className="hyf-speedy-con">
+            <div className="hyf-speedy container">
+                <ul className="hyf-speedy-main">
+                    <li className="hyf-speedy-con">
+                        <Link to="/flashsale">
                             <div className="hyf-speed-img"></div>
                             <p className="title">限时抢购</p>
-                        </li>
-                        <li className="hyf-speedy-con">
+                        </Link>
+                    </li>
+                    <li className="hyf-speedy-con">
+                        <Link to="/flashsale">
                             <div className="hyf-speed-img"></div>
                             <p className="title">限时抢购</p>
-                        </li>
-                    </ul>
+                        </Link>
+                    </li>
+                    <li className="hyf-speedy-con">
+                        <Link to="/flashsale">
+                            <div className="hyf-speed-img"></div>
+                            <p className="title">限时抢购</p>
+                        </Link>
+                    </li>
+                </ul>
+                <div>
                 </div>
-
+            </div>
         )
     }
 }
@@ -90,13 +101,59 @@ class Opimization extends Component {
     }
 }
 
+class Abussiness extends Component{
+    render(){
+        return (
+            <div className="hyf-abuss container">
+                <div className="title">
+                    <div className="title-con"><a href=""></a></div>
+                </div>
+                <ul className="hyf-abuss-list">
+                    <li className="hyf-abuss-item">
+                        <a href="">
+                            <div className="hyf-abuss-left"><img src={require('./Img/hyf_list1.png')} alt=""/></div>
+                            <div className="hyf-abuss-center">
+                                <div className="abuss-center-title">靓车堂（平阳路店）</div>
+                                <div className="abuss-center-site">大店区短风北街七巷</div>
+                                <div className="abuss-center-info">
+                                    <span className="abuss-info-left"><i className="icon-shoppingcar"></i><p>2k</p></span>
+                                    <span className="abuss-info-center"><i className="icon-text"></i><p>3.6k</p></span>
+                                    <span className="abuss-info-right"><i className="icon-house"></i><p>1.17km</p></span>
+                                </div>
+                            </div>
+                            <div className="hyf-abuss-right active">营业中</div>
+                        </a>
+                    </li>
+                    <li className="hyf-abuss-item">
+                        <a href="">
+                            <div className="hyf-abuss-left"><img src={require('./Img/hyf_list2.png')} alt=""/></div>
+                            <div className="hyf-abuss-center">
+                                <div className="abuss-center-title">靓车堂（平阳路店）</div>
+                                <div className="abuss-center-site">大店区短风北街七巷</div>
+                                <div className="abuss-center-info">
+                                    <span className="abuss-info-left"><i className="icon-shoppingcar"></i><p>2k</p></span>
+                                    <span className="abuss-info-center"><i className="icon-text"></i><p>3.6k</p></span>
+                                    <span className="abuss-info-right"><i className="icon-house"></i><p>1.17km</p></span>
+                                </div>
+                            </div>
+                            <div className="hyf-abuss-right active">未营业</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        )
+    }
+}
+
 class Main extends Component {
     render() {
         return (
             <div>
+                <Header left="icon-pointer" title="车先生" right="icon-search"/>
                 <Banner/>
                 <Speedy/>
                 <Opimization/>
+                <Abussiness/>
             </div>
         )
     }
