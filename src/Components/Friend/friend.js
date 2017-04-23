@@ -4,12 +4,15 @@ import './Css/rlm_friend.css';
 import Header from './header';
 // 页面信息载体
 import Main from './main';
+// 底部切换
+import Footer from '../../Components/Common/footer';
 class Friend extends Component{
     render(){
         return(
             <div className="rlm-friend">
                 <Header/>
                 <Main/>
+                <Footer/>
             </div>
         )
     }
