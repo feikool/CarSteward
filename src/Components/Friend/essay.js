@@ -11,7 +11,7 @@ class Essay extends Component{
                 </div>
                 <div className="laud">
                     <div className="laud-head-wrap">
-                        <img src={require('./Imgs/rlm-user-head.png')} className="laud-head"/>
+                        <img src={require('./Imgs/rlm-user-head-1.png')} className="laud-head"/>
                         <img src={require('./Imgs/rlm-user-head-2.png')} className="laud-head"/>
                         <img src={require('./Imgs/rlm-user-head-3.png')} className="laud-head"/>
                         <img src={require('./Imgs/rlm-user-head-4.png')} className="laud-head"/>

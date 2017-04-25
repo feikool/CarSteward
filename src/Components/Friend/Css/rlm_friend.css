@@ -8,6 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
   color: #fff; }
   .rlm-header > a {
     color: #fff;
@@ -43,6 +48,7 @@
       letter-spacing: .02rem; }
 
 .rlm-main-wrap {
+  margin-top: .88rem;
   margin-bottom: 1rem; }
 
 .rlm-main-banner-wrap {
@@ -100,7 +106,7 @@
   .rlm-user .rlm-user-head {
     width: .9rem;
     height: .9rem;
-    background: url("../Imgs/rlm-user-head.png") no-repeat center;
+    background: url("../Imgs/rlm-user-head-1.png") no-repeat center;
     background-size: 100%; }
   .rlm-user .rlm-user-info {
     flex: 1;
@@ -295,3 +301,6 @@
   line-height: .3rem; }
   .comment-info-button .floor-name {
     color: #35B2FF; }
+.rlm-temp{
+  height: .88rem;
+}
