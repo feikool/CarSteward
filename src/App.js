@@ -14,6 +14,13 @@ import Description from './Components/Index/description';
 
 // 车管家
 import Steward from './Components/Steward/steward';
+//靓车堂
+import Nicecar from './Components/Steward/nicecar';
+import Plus from './Components/Steward/plus';
+import Calendar from './Components/Steward/calendar';
+import Order from './Components/Steward/order';
+import Pay from './Components/Steward/pay';
+import Maskpay from './Components/Steward/maskpay';
 // 车友汇
 import Frined from './Components/Friend/friend';
 // 车常识
@@ -37,6 +44,12 @@ class App extends Component {
            <div>
              <Route exact path="/" component={Index}/>
              <Route path="/steward" component={Steward}/>
+             <Route path="/nicecar" component={Nicecar}/>
+             <Route path="/plus" component={Plus}/>
+             <Route path="/calendar" component={Calendar}/>
+             <Route path="/order" component={Order}/>
+             <Route path="/pay" component={Pay}/>
+             <Route path="/maskpay" component={Maskpay}/>
              <Route path="/frined" component={Frined}/>
              <Route path="/general" component={General}/>
              <Route path="/detailer" component={Detailer}/>
