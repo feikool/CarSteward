@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Calendar from 'antd/lib/calendar';
-import 'antd/dist/antd.min.css';
 import {Link} from 'react-router-dom';
 class Mask extends Component{
     render(){
