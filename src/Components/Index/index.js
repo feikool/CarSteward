@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
+import './Css/index.css';
+/*--------------index-----------------*/
+import Footer from '../Common/footer';
+import Main from './main';
+import Header from './header';
 
-import Flashsale from './cararticles';
-
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 class Index extends Component {
     render() {
         return (
-            <Router>
-                <div className="hyf-index">
-                    <Route path="/flashsale" component={Flashsale}/>
-                </div>
-            </Router>
+            <div className="hyf-index">
+                <Header left="icon-pointer" title="车先生" right="icon-search"/>
+                <Main/>
+                <Footer/>
+            </div>
         )
     }
 }

@@ -5,6 +5,13 @@ import {BrowserRouter, Route} from 'react-router-dom';
 // 路由相关    载入路由要显示的组件， 注意路径
 // 首页
 import Index from './Components/Index/index';
+//车品区
+import Cararticles from './Components/Index/cararticles';
+//优质配件
+import Parts from './Components/Index/parts';
+//商品详情
+import Description from './Components/Index/description';
+
 // 车管家
 import Steward from './Components/Steward/steward';
 // 车友汇
@@ -35,6 +42,9 @@ class App extends Component {
              <Route path="/detailer" component={Detailer}/>
              <Route path="/personal" component={Personal}/>
              <Route path="/editpage" component={EditPage}/>
+             <Route path="/cararticles" component={Cararticles}/>
+             <Route path="/parts" component={Parts}/>
+             <Route path="/description" component={Description}/>
            </div>
         </BrowserRouter>
     );
