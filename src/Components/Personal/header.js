@@ -36,8 +36,8 @@ class Header extends Component{
     render(){
         return(
             <div>
-                <AccountHeader path="/personal/account" component={AccountHeader}/>
-                {/*<Sns path="/personal" component={Sns}/>*/}
+                {/*<AccountHeader path="/personal/account" component={AccountHeader}/>*/}
+                <Sns path="/personal" component={Sns}/>
             </div>
         )
     }

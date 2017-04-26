@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
 import Header from './header';
+// import Footer from '../../Component/Common/footer';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class Index extends Component{
@@ -154,6 +155,7 @@ class Index extends Component{
                        </div>
                    </div>
                </nav>
+               {/*<Footer/>*/}
            </div>
         )
     }

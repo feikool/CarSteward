@@ -9,7 +9,14 @@ class Account extends Component{
     render(){
         return(
             <div className="accounts">
-                <Route path="/personal/account" component={Header}/>
+                <header>
+                    <Link to="/personal" className="act">
+                        <div className="account icon-arrow"> </div>
+                    </Link>
+                    <div className="title">
+                        <span className="list-1"><i></i><i></i><i></i></span><h1>我的帐号</h1><span className="list-2"><i></i><i></i><i></i></span>
+                    </div>
+                </header>
                 <div className="header-bg-empty"></div>
                 <div className="account-nav">
                     <div className="act-safe-wrap">
