@@ -7,6 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
     height: .88rem;
     background-image:linear-gradient(45deg,#1CACFF, #1D9DE7);
     display: flex;
