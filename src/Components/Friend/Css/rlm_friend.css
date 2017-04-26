@@ -3,6 +3,7 @@
   height: 100%; }
 
 .rlm-header {
+  z-index: 999;
   height: .88rem;
   background: #1D9DE6;
   display: flex;

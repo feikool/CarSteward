@@ -30,6 +30,7 @@ class Framework
     }
 //    json 设置发起请求的格式   然后将转换好格式的数据 发回
     function json($value){
+            header('Content-Type:text/json');
             echo json_encode($value);
 
     }

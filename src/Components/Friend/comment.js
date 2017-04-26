@@ -18,7 +18,7 @@ class Comment extends Component{
         return(
             <div className="rlm-comment-wrap">
                 <div className="comment-use">
-                    <img src={require('./Imgs/rlm-user-head-3.png')} className="comment-use-head"/>
+                    <img src={require('./Imgs/rlm-user-head-3.png')} className="comment-use-head" alt=""/>
                     <div className="comment-info">
                         <div className="comment-info-top">
                             <div className="comment-words">

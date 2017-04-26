@@ -6,7 +6,7 @@ class General extends Component{
     constructor(){
         super();
         this.r = window.location.href.split('=')[1];
-        switch (this.r) {
+        switch(this.r){
             case '1':
                 this.title = '车常识';
                 break;
@@ -19,7 +19,7 @@ class General extends Component{
             case '4':
                 this.title = '先生志';
                 break;
-        };
+        }
         this.state={
             dataSource:[]
         }

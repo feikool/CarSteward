@@ -11,11 +11,11 @@ class Essay extends Component{
                 </div>
                 <div className="laud">
                     <div className="laud-head-wrap">
-                        <img src={require('./Imgs/rlm-user-head-1.png')} className="laud-head"/>
-                        <img src={require('./Imgs/rlm-user-head-2.png')} className="laud-head"/>
-                        <img src={require('./Imgs/rlm-user-head-3.png')} className="laud-head"/>
-                        <img src={require('./Imgs/rlm-user-head-4.png')} className="laud-head"/>
-                        <img src={require('./Imgs/rlm-user-head-5.png')} className="laud-head"/>
+                        <img src={require('./Imgs/rlm-user-head-1.png')} className="laud-head" alt=""/>
+                        <img src={require('./Imgs/rlm-user-head-2.png')} className="laud-head" alt=""/>
+                        <img src={require('./Imgs/rlm-user-head-3.png')} className="laud-head" alt=""/>
+                        <img src={require('./Imgs/rlm-user-head-4.png')} className="laud-head" alt=""/>
+                        <img src={require('./Imgs/rlm-user-head-5.png')} className="laud-head" alt=""/>
                     </div>
                     <div className="quantity"><span className="all">108</span><span className="restore">201回复</span></div>
                     <i className="icon-lauds"></i>
