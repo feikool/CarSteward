@@ -16,6 +16,7 @@ class Message extends Component{
                     </div>
                 </header>
                 <div className="message-nav">
+                    <div className="nav-empty"></div>
                     <div className="message-lis">
                         <div className="message-wrap">
                             <div className="message-item"></div>

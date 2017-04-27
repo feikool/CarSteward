@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
 import Header from './header';
-// import Footer from '../../Component/Common/footer';
+import Footer from '../Common/footer';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class Index extends Component{
@@ -11,6 +11,7 @@ class Index extends Component{
                <Header/>
                <div className="header-empty"></div>
                <nav>
+                   <div className="nav-empty" style={{background:'none'}}></div>
                    <div className="nav-header">
                        <div className="personal-title">
                        <h3>李嘉琦</h3>
@@ -18,8 +19,7 @@ class Index extends Component{
                        </div>
                        <div className="favicon">
                             <div className="favicon-circle">
-    `                          <div className="log icon-edit">
-
+                              <div className="log icon-edit">
                             </div>
                             </div>
                        </div>
@@ -60,17 +60,20 @@ class Index extends Component{
                        </div>
                        <div className="con-nav">
                            <ul className="nav-column">
-                               <li>
-                                   <div className="icon">
-                                       <div className="icon-s icon-message"></div>
-                                   </div>
-                                   <div className="title">
-                                       <h1>通知</h1><span>information</span>
-                                   </div>
-                                   <div className="decorate">
-                                       <i></i><span></span><i></i>
-                                   </div>
-                               </li>
+                               <Link to="/personal/message" style={{width:'100%'}}>
+                                   <li>
+                                       <div className="icon">
+                                           <div className="icon-s icon-message"></div>
+                                       </div>
+                                       <div className="title">
+                                           <h1>通知</h1><span>information</span>
+                                       </div>
+                                       <div className="decorate">
+                                           <i></i><span></span><i></i>
+                                       </div>
+                                   </li>
+                               </Link>
+                               <Link to="/personal/order" style={{width:'100%'}}>
                                <li>
                                    <div className="icon">
                                        <div className="icon-s icon-shopping"></div>
@@ -82,6 +85,8 @@ class Index extends Component{
                                        <i></i><span></span><i></i>
                                    </div>
                                </li>
+                               </Link>
+                               <Link to="/personal/newmessage" style={{width:'100%'}}>
                                <li>
                                    <div className="icon">
                                        <div className="icon-s icon-settings"></div>
@@ -93,6 +98,7 @@ class Index extends Component{
                                        <i></i><span></span><i></i>
                                    </div>
                                </li>
+                               </Link>
                            </ul>
                        </div>
                        <div className="designer">
@@ -155,7 +161,9 @@ class Index extends Component{
                        </div>
                    </div>
                </nav>
-               {/*<Footer/>*/}
+               <div className="footer-empty"></div>
+               <Footer/>
+
            </div>
         )
     }

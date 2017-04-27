@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
-import {Switch} from 'antd';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class Order extends Component{
@@ -18,17 +17,24 @@ class Order extends Component{
                         <div className="setting icon-edit"> </div>
                     </Link>
                 </header>
+                <div className="nav-empty"></div>
+
                 <div className="order-nav">
                     <div className="order-tab">
+
                         <div className="tab-left">
-                            <div className="tab-wrap">
-                                <div className="wrap-wrap"><h3>全部订单</h3></div>
-                            </div>
+                            <Link to="/personal/order">
+                                <div className="tab-wrap active">
+                                    <div className="wrap-wrap"><h3>全部订单</h3></div>
+                                </div>
+                            </Link>
                         </div>
                         <div className="tab-right">
-                            <div className="tab-wrap">
-                                <div className="wrap-wrap"><h3>评价</h3></div>
-                            </div>
+                            <Link to="/personal/evaluate">
+                                <div className="tab-wrap ">
+                                    <div className="wrap-wrap"><h3>评价</h3></div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className="order-content">

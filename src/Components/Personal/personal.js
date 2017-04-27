@@ -6,6 +6,7 @@ import UserAccount from './useraccount';
 import Newmessage from './newmessage';
 import Message from './message';
 import Order from './order';
+import Evaluate from './evaluate';
 import {BrowserRouter, Route} from 'react-router-dom';
 class Personal extends Component{
     render(){
@@ -17,6 +18,7 @@ class Personal extends Component{
             <Route path="/personal/newmessage" component={Newmessage}/>
             <Route path="/personal/message" component={Message}/>
             <Route path="/personal/order" component={Order}/>
+            <Route path="/personal/evaluate" component={Evaluate}/>
             </div>
         )
     }

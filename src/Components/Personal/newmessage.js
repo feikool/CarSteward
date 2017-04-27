@@ -17,6 +17,7 @@ class Account extends Component{
                        <h1>新消息通知</h1>
                     </div>
                 </header>
+                <div className="nav-empty"></div>
                 <div className="header-bg-empty"></div>
                 <div className="account-nav">
                     <div className="act-safe-wrap">

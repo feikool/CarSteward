@@ -10,6 +10,7 @@ class UserAccount extends Component{
         return(
             <div className="accounts">
                <Header/>
+                <div className="nav-empty"></div>
                 <div className="header-bg-empty"></div>
                 <div className="account-nav user-nav">
                     <div className="account-set">
