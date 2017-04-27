@@ -10,7 +10,7 @@ class Friend extends Component{
     render(){
         return(
             <div className="rlm-friend">
-                <Header/>
+                <Header title={'车友汇'} left={'icon-pointer'} right={'icon-search'}/>
                 <Main/>
                 <Footer/>
             </div>

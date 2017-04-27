@@ -2,8 +2,11 @@
   width: 100%;
   height: calc(100vh - .88rem); }
 
+body {
+  background: #f6f6f6; }
+
 .hyf-banner {
-  padding-top: .88rem;
+  margin-top: .88rem;
   height: 1.22rem;
   background: #1D9DE6;
   display: flex;
@@ -29,4 +32,12 @@
     .hyf-carart-main .hyf-carart-list li {
       width: 48%;
       height: 48%;
-      background: #FFC71C; }
+      background: center/cover no-repeat; }
+    .hyf-carart-main .hyf-carart-list .hyf-carart-item1 {
+      background-image: url("../Img/hyf_cararlist1.png"); }
+    .hyf-carart-main .hyf-carart-list .hyf-carart-item2 {
+      background-image: url("../Img/hyf_cararlist2.png"); }
+    .hyf-carart-main .hyf-carart-list .hyf-carart-item3 {
+      background-image: url("../Img/hyf_cararlist3.png"); }
+    .hyf-carart-main .hyf-carart-list .hyf-carart-item4 {
+      background-image: url("../Img/hyf_cararlist4.png"); }
