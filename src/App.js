@@ -11,6 +11,9 @@ import Cararticles from './Components/Index/cararticles';
 import Parts from './Components/Index/parts';
 //商品详情
 import Description from './Components/Index/description';
+//购物车
+import Shoppingcar from './Components/Index/shoppingcar';
+import Shoppingcarredact from './Components/Index/shoppingcar-redact';
 
 // 车管家
 import Steward from './Components/Steward/steward';
@@ -62,25 +65,20 @@ class App extends Component {
              <Route path="/detailer" component={Detailer}/>
              <Route path="/personal" component={Personal}/>
              <Route path="/editpage" component={EditPage}/>
-<<<<<<< HEAD
 
-=======
->>>>>>> c87854266c4d802ab39f948d7707348bbb782fe9
+
+
              <Route path="/shoppin" component={Shopping}></Route>
              <Route path="/violation" component={Violation}></Route>
              <Route path="/prizetopic" component={Prizetopic}></Route>
              <Route path="/search" component={Search}></Route>
-<<<<<<< HEAD
 
              <Route path="/cararticles" component={Cararticles}/>
              <Route path="/parts" component={Parts}/>
              <Route path="/description" component={Description}/>
+             <Route path="/shoppingcar" component={Shoppingcar}/>
+             <Route path="/shoppingcar-redact" component={Shoppingcarredact}/>
 
-=======
-             <Route path="/cararticles" component={Cararticles}/>
-             <Route path="/parts" component={Parts}/>
-             <Route path="/description" component={Description}/>
->>>>>>> c87854266c4d802ab39f948d7707348bbb782fe9
            </div>
         </BrowserRouter>
     );

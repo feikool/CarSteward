@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import Header from './header';
 import './Css/header.css';
-import './Css/cararticless.css';
+import './Css/index.css';
 /*--------------车先生-----------------*/
 class Cararticles extends Component {
     render(){
         return(
             <div className="hyf-cararticles">
                 <Header left="icon-arrow" title="车先生" right="icon-search"/>
-                <div className="hyf-banner">
+                <div className="hyf-Cararbanner">
                     <div className="border"></div>
                 </div>
                 <div className="hyf-carart-main container">

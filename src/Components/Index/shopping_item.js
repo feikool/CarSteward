@@ -17,7 +17,6 @@ class Shopping_item extends Component {
                         <div className="item-title"><h3>{v.title}</h3><p className="cost"><span>{v.rmb}</span>.00</p>
                         </div>
                         <p className="info">{v.info}</p>
-                        {i}
                     </div>
                 </Link>
             </li>

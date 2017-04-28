@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Icon from 'antd/lib/icon';
-import 'antd/dist/antd.min.css';
 
 //导航组件
 
@@ -33,7 +32,7 @@ class Speedy extends Component {
             <div className="hyf-speedy container">
                 <ul className="hyf-speedy-main">
                     <li className="hyf-speedy-con">
-                        <Link to="/shopping">
+                        <Link to="/shoppin">
                             <div className="hyf-speed-img"></div>
                             <p className="title">限时抢购</p>
                         </Link>
@@ -45,7 +44,7 @@ class Speedy extends Component {
                         </Link>
                     </li>
                     <li className="hyf-speedy-con">
-                        <Link to="/flashsale">
+                        <Link to="/violation">
                             <div className="hyf-speed-img"></div>
                             <p className="title">违章查询</p>
                         </Link>
@@ -77,7 +76,7 @@ class Opimization extends Component {
                     </li>
                     <li></li>
                     <li className="hyf-optim-item container">
-                        <Link to="">
+                        <Link to="/prizetopic">
                             <h2><span>conver</span>sation</h2>
                             <h3>有奖话题</h3>
                             <div className="inner">

@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
-import Icon from 'antd/lib/icon';
-import 'antd/dist/antd.min.css';
-
 import Header from './header';
-
-import './Css/description.css';
-import 'antd/dist/antd.min.css';
+import {Link} from 'react-router-dom';
 class Descmain extends Component {
     render() {
         return (
@@ -20,7 +15,7 @@ class Descmain extends Component {
                         <span className="desc-info-center"></span>
                         <p className="info-centent-sub">沿途汽车用品有限公司生产销售各类汽车用品、涵盖车内外
                             装饰改装及安全系列产品。</p>
-                        <ul className="desc-info-color">
+                        <ul className="hyf-desc-info-color">
                             <li></li>
                             <li className="active"></li>
                             <li></li>
@@ -28,10 +23,10 @@ class Descmain extends Component {
                         </ul>
                         <div className="desc-info-cost">
                             <p><span>468</span>.00</p>
-                            <div className="desc-info-cost">
+                            <div className="desc-info-cost-item">
                                 <span className="desc-info-cost-left"><i></i></span>
                                 <input type="text" value='2'/>
-                                <span className="desc-info-cost-right"><Icon type="plus"/></span>
+                                <span className="desc-info-cost-right"><i className="icon-cross"></i></span>
                             </div>
                         </div>
                     </div>
@@ -129,15 +124,55 @@ class Review extends Component {
     }
 }
 
+class Footer extends  Component{
+    render(){
+        return(
+            <footer className="hyf-desc-footer">
+                <div className="footer-play">
+                    <div className="footer-shopping"><Link to="/shoppingcar"></Link></div>
+                    <div className="footer-pay"><a href="#">立即购买</a></div>
+                    <div className="footer-collect"><Link to="/"></Link></div>
+                </div>
+                <div className="hyf-shopping-yes">
+                    <div className="shopping-yes-con">
+                        <div className="title">确认商品信息</div>
+                        <div className="shipping-con">
+                            <div>
+                                <div className="desc-info-clolor-title">颜色</div>
+                                <ul className="hyf-desc-info-color">
+                                    <li className=""></li>
+                                    <li className="active"></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div className="shopping-num">数量</div>
+                                <div className="shopping-num-con">
+                                    <div className="shopping-num-0"><i></i></div>
+                                    <div className="shopping-num-con-item"><p>2</p></div>
+                                    <div className="shopping-num-1"><i></i></div>
+                                </div>
+                            </div>
+                            <div className="footer-pay"><Link to="/Shoppingcar">立即购买 | $<span>636</span></Link></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        )
+    }
+}
+
 class Description extends Component {
     render() {
         return (
             <div className="hyf-desc">
-                <Header left="icon-arrow" title="商品详情" right="icon-shoppingcar"/>
+                <Header left="icon-arrow" title="商品详情" right="icon-shoppingcar" />
                 <div className="hyf-desc-banner"></div>
                 <Descmain/>
                 <Commodity/>
                 <Review/>
+                <Footer/>
             </div>
         )
     }

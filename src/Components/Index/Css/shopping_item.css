@@ -44,6 +44,7 @@
 .hyf-item-con {
   width: 100%;
   height: .98rem;
+  box-sizing: border-box;
   padding: 0 0.12rem;
   overflow: hidden; }
   .hyf-item-con .item-title {
