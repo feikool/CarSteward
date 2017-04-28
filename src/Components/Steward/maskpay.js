@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import Pay from './pay';
 import Maskyhq from './maskyhq';
 class Maskpay extends Component{
