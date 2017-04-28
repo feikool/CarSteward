@@ -62,16 +62,25 @@ class App extends Component {
              <Route path="/detailer" component={Detailer}/>
              <Route path="/personal" component={Personal}/>
              <Route path="/editpage" component={EditPage}/>
+<<<<<<< HEAD
 
+=======
+>>>>>>> c87854266c4d802ab39f948d7707348bbb782fe9
              <Route path="/shoppin" component={Shopping}></Route>
              <Route path="/violation" component={Violation}></Route>
              <Route path="/prizetopic" component={Prizetopic}></Route>
              <Route path="/search" component={Search}></Route>
+<<<<<<< HEAD
 
              <Route path="/cararticles" component={Cararticles}/>
              <Route path="/parts" component={Parts}/>
              <Route path="/description" component={Description}/>
 
+=======
+             <Route path="/cararticles" component={Cararticles}/>
+             <Route path="/parts" component={Parts}/>
+             <Route path="/description" component={Description}/>
+>>>>>>> c87854266c4d802ab39f948d7707348bbb782fe9
            </div>
         </BrowserRouter>
     );
