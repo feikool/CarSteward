@@ -3,20 +3,20 @@ import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
 import Footer from  './footer';
 import {Switch} from 'antd';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Account extends Component{
     render(){
         return(
             <div className="newmessage">
-                <header>
+                <div className="gjl_header">
                     <Link to="/personal" className="act">
                         <div className="account icon-arrow"></div><span className="set-title">设置</span>
                     </Link>
                     <div className="title">
                        <h1>新消息通知</h1>
                     </div>
-                </header>
+                </div>
                 <div className="nav-empty"></div>
                 <div className="header-bg-empty"></div>
                 <div className="account-nav">

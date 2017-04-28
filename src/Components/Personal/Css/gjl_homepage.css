@@ -1,4 +1,4 @@
-header {
+.gjl_header {
   width: 100%;
   height: 0.88rem;
   background: linear-gradient(45deg, #1CACFF, #1D9DE7);
@@ -8,38 +8,38 @@ header {
   align-items: center;
   text-align: center;
   z-index: 1 !important; }
-  header .title {
+  .gjl_header .title {
     height: 100%;
     display: flex;
     align-items: center;
     position: relative;
     justify-content: center;
     color: #F6F6F6; }
-    header .title span {
+    .gjl_header .title span {
       width: 0.6rem;
       display: flex;
       justify-content: space-around;
       align-items: center; }
-      header .title span.list-1 {
+      .gjl_header .title span.list-1 {
         flex-direction: row; }
-      header .title span.list-2 {
+      .gjl_header .title span.list-2 {
         flex-direction: row-reverse; }
-      header .title span i {
+      .gjl_header .title span i {
         display: inline-block;
         background: #F6F6F6;
         border-radius: 50%; }
-        header .title span i:nth-child(1) {
+        .gjl_header .title span i:nth-child(1) {
           width: 0.04rem;
           height: 0.04rem; }
-        header .title span i:nth-child(2) {
+        .gjl_header .title span i:nth-child(2) {
           width: 0.06rem;
           height: 0.06rem; }
-        header .title span i:nth-child(3) {
+        .gjl_header .title span i:nth-child(3) {
           width: 0.08rem;
           height: 0.08rem; }
-    header .title h1 {
+    .gjl_header .title h1 {
       font-size: 0.28rem; }
-  header .set {
+  .gjl_header .set {
     width: 0.88rem;
     height: 0.88rem;
     display: flex;
@@ -48,10 +48,10 @@ header {
     position: absolute;
     right: 0;
     cursor: pointer; }
-    header .set .setting {
+    .gjl_header .set .setting {
       font-size: 0.38rem;
       color: #F6F6F6; }
-  header .act {
+  .gjl_header .act {
     width: 1.48rem;
     height: 0.88rem;
     display: flex;
@@ -60,7 +60,7 @@ header {
     position: absolute;
     left: 0;
     cursor: pointer; }
-    header .act .account {
+    .gjl_header .act .account {
       font-size: 0.38rem;
       color: #F6F6F6; }
 
@@ -84,35 +84,35 @@ body {
   height: 0.88rem;
   background: #F6F6F6; }
 
-nav {
+.gjl_nav {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  nav .nav-header {
+  .gjl_nav .nav-header {
     width: 100%;
     height: 0.87rem;
     display: flex;
     align-items: center;
     justify-content: flex-end; }
-  nav .personal-title {
+  .gjl_nav .personal-title {
     flex: 6;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
     color: #F6F6F6; }
-    nav .personal-title span {
+    .gjl_nav .personal-title span {
       font-size: 0.13rem;
       padding: 0.15rem 0; }
-    nav .personal-title h3 {
+    .gjl_nav .personal-title h3 {
       font-size: 0.22rem; }
-  nav .favicon {
+  .gjl_nav .favicon {
     flex: 3;
     height: 100%; }
-    nav .favicon .favicon-circle {
+    .gjl_nav .favicon .favicon-circle {
       margin-left: 0.22rem;
       width: 1.62rem;
       height: 1.62rem;
@@ -123,7 +123,7 @@ nav {
       justify-content: flex-end;
       align-items: flex-end;
       box-shadow: 0 0 10px 5px #75B3EF; }
-      nav .favicon .favicon-circle .log {
+      .gjl_nav .favicon .favicon-circle .log {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -131,14 +131,14 @@ nav {
         height: 0.41rem;
         background: #FFDD31;
         border-radius: 50%; }
-      nav .favicon .favicon-circle .icon-edit {
+      .gjl_nav .favicon .favicon-circle .icon-edit {
         font-size: 0.2rem;
         color: #F6F6F6; }
-  nav .containers {
+  .gjl_nav .containers {
     width: 7.2rem;
     height: 100%;
     margin: 0 0.15rem; }
-  nav .containers-bg {
+  .gjl_nav .containers-bg {
     width: 100%;
     height: 3.83rem;
     background: url("../imgs/gjl_nav_bg.png") no-repeat center/cover;
@@ -146,31 +146,31 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-  nav .con-title {
+  .gjl_nav .con-title {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     height: 2.18rem;
     flex-direction: column;
     margin-right: 0.46rem; }
-    nav .con-title h2 {
+    .gjl_nav .con-title h2 {
       font-size: 0.3rem;
       color: #21B5FF; }
-    nav .con-title span {
+    .gjl_nav .con-title span {
       margin: 0.15rem 0;
       font-size: 0.18rem;
       color: #21B5FF;
       font-weight: 600; }
-    nav .con-title h3 {
+    .gjl_nav .con-title h3 {
       font-size: 0.24rem;
       color: #373840; }
-  nav .pff {
+  .gjl_nav .pff {
     width: 6.8rem;
     margin: 0 0.2rem;
     height: 1.24rem;
     display: flex;
     justify-content: space-between; }
-    nav .pff li {
+    .gjl_nav .pff li {
       box-sizing: border-box;
       width: 2.18rem;
       height: 100%;
@@ -181,56 +181,56 @@ nav {
       justify-content: center;
       flex-direction: column;
       padding-left: 0.3rem; }
-      nav .pff li .top {
+      .gjl_nav .pff li .top {
         flex: 2;
         display: flex;
         align-items: flex-end;
         color: #21affc; }
-        nav .pff li .top h1 {
+        .gjl_nav .pff li .top h1 {
           flex: 2;
           font-size: 0.37rem; }
-        nav .pff li .top h2 {
+        .gjl_nav .pff li .top h2 {
           display: flex;
           justify-content: flex-start;
           flex: 3;
           font-size: 0.24rem; }
-      nav .pff li .bottom {
+      .gjl_nav .pff li .bottom {
         flex: 1;
         display: flex;
         align-items: center; }
-        nav .pff li .bottom span {
+        .gjl_nav .pff li .bottom span {
           font-size: .15rem;
           color: #565eff; }
-      nav .pff li.photograph {
+      .gjl_nav .pff li.photograph {
         background: url("../imgs/gjl_pff_1.png") no-repeat center/cover; }
-      nav .pff li.following {
+      .gjl_nav .pff li.following {
         background: url("../imgs/gjl_pff_2.png") no-repeat center/cover; }
-      nav .pff li.followers {
+      .gjl_nav .pff li.followers {
         background: url("../imgs/gjl_pff_3.png") no-repeat center/cover; }
-  nav .con-nav {
+  .gjl_nav .con-nav {
     width: 100%;
     height: 3.55rem;
     background: #fff;
     display: flex;
     align-items: center; }
-    nav .con-nav .nav-column {
+    .gjl_nav .con-nav .nav-column {
       width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      nav .con-nav .nav-column li {
+      .gjl_nav .con-nav .nav-column li {
         width: 100%;
         height: 0.8rem;
         display: flex;
         position: relative; }
-        nav .con-nav .nav-column li .icon {
+        .gjl_nav .con-nav .nav-column li .icon {
           width: 1.02rem;
           height: 100%;
           display: flex;
           justify-content: center;
           align-items: center; }
-          nav .con-nav .nav-column li .icon .icon-s {
+          .gjl_nav .con-nav .nav-column li .icon .icon-s {
             width: 0.38rem;
             height: 0.38rem;
             border-radius: 50%;
@@ -239,20 +239,20 @@ nav {
             justify-content: center;
             align-items: center;
             color: #fff; }
-        nav .con-nav .nav-column li .title {
+        .gjl_nav .con-nav .nav-column li .title {
           order: 1;
           display: flex;
           color: #525AFF;
           align-items: center; }
-          nav .con-nav .nav-column li .title h1 {
+          .gjl_nav .con-nav .nav-column li .title h1 {
             font-size: 0.21rem; }
-          nav .con-nav .nav-column li .title span {
+          .gjl_nav .con-nav .nav-column li .title span {
             margin: 0 .1rem;
             height: 0.22rem;
             display: flex;
             align-items: flex-end;
             font-size: 0.13rem; }
-        nav .con-nav .nav-column li .decorate {
+        .gjl_nav .con-nav .nav-column li .decorate {
           position: absolute;
           width: 100%;
           bottom: 0;
@@ -260,28 +260,28 @@ nav {
           display: flex;
           justify-content: center;
           align-items: center; }
-          nav .con-nav .nav-column li .decorate i {
+          .gjl_nav .con-nav .nav-column li .decorate i {
             width: 5px;
             height: 5px;
             background: #E7E7E7;
             border-radius: 50%; }
-          nav .con-nav .nav-column li .decorate span {
+          .gjl_nav .con-nav .nav-column li .decorate span {
             background: #E7E7E7;
             width: 6.45rem;
             height: 1px; }
-  nav .designer {
+  .gjl_nav .designer {
     width: 100%;
     height: 0.58rem;
     background: #fff;
     display: flex;
     position: relative; }
-    nav .designer .icon {
+    .gjl_nav .designer .icon {
       width: 0.88rem;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-      nav .designer .icon .icon-s {
+      .gjl_nav .designer .icon .icon-s {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -291,16 +291,16 @@ nav {
         background: #C6CEFF;
         font-size: 0.35rem;
         color: #fff; }
-    nav .designer .designer-title {
+    .gjl_nav .designer .designer-title {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       color: #525AFF; }
-      nav .designer .designer-title h1 {
+      .gjl_nav .designer .designer-title h1 {
         font-size: 0.27rem; }
-      nav .designer .designer-title span {
+      .gjl_nav .designer .designer-title span {
         font-size: .18rem; }
-    nav .designer .more {
+    .gjl_nav .designer .more {
       order: 1;
       width: 1.09rem;
       height: 0.51rem;
@@ -312,16 +312,16 @@ nav {
       color: #fff;
       position: absolute;
       right: 0.18rem; }
-      nav .designer .more span {
+      .gjl_nav .designer .more span {
         font-size: 0.21rem; }
-  nav .shopping {
+  .gjl_nav .shopping {
     width: 100%;
     height: 3.17rem;
     background: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center; }
-    nav .shopping li {
+    .gjl_nav .shopping li {
       width: 2.08rem;
       height: 2.68rem;
       display: flex;
@@ -330,19 +330,19 @@ nav {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
       box-shadow: 0 2px 10px 0 #CECECE; }
-      nav .shopping li:nth-child(1) .top {
+      .gjl_nav .shopping li:nth-child(1) .top {
         background: #F7F7F7 url("../imgs/gjl_shop_1.png") no-repeat center/cover;
         background-size: 0.87rem 1.27rem; }
-      nav .shopping li:nth-child(2) .top {
+      .gjl_nav .shopping li:nth-child(2) .top {
         background: #F7F7F7 url("../imgs/gjl_shop_2.png") no-repeat center/cover;
         background-size: 0.87rem 1.27rem; }
-      nav .shopping li:nth-child(3) .top {
+      .gjl_nav .shopping li:nth-child(3) .top {
         background: #F7F7F7 url("../imgs/gjl_shop_3.png") no-repeat center/cover;
         background-size: 0.87rem 1.27rem; }
-      nav .shopping li .top {
+      .gjl_nav .shopping li .top {
         flex: 2;
         position: relative; }
-        nav .shopping li .top .icon {
+        .gjl_nav .shopping li .top .icon {
           border-radius: 50%;
           color: #fff;
           font-size: 0.28rem;
@@ -355,31 +355,31 @@ nav {
           display: flex;
           justify-content: center;
           align-items: center; }
-      nav .shopping li .bottom {
+      .gjl_nav .shopping li .bottom {
         flex: 1;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         padding-left: 0.18rem; }
-        nav .shopping li .bottom h3 {
+        .gjl_nav .shopping li .bottom h3 {
           font-size: 0.22rem; }
-        nav .shopping li .bottom span, nav .shopping li .bottom i, nav .shopping li .bottom h6 {
+        .gjl_nav .shopping li .bottom span, .gjl_nav .shopping li .bottom i, .gjl_nav .shopping li .bottom h6 {
           font-size: 0.14rem; }
-        nav .shopping li .bottom span {
+        .gjl_nav .shopping li .bottom span {
           color: #ADADAD;
           font-weight: 600; }
-        nav .shopping li .bottom i {
+        .gjl_nav .shopping li .bottom i {
           color: #ADADAD; }
-        nav .shopping li .bottom h6 {
+        .gjl_nav .shopping li .bottom h6 {
           font-weight: 600;
           color: #FF9726; }
-  nav .logout {
+  .gjl_nav .logout {
     width: 100%;
     background: #fff;
     height: 0.91rem;
     display: flex;
     justify-content: flex-end; }
-    nav .logout .logout-btn {
+    .gjl_nav .logout .logout-btn {
       width: 1.67rem;
       height: 0.5rem;
       margin-right: 0.2rem;
@@ -389,12 +389,12 @@ nav {
       display: flex;
       justify-content: space-around;
       align-items: center; }
-    nav .logout i {
+    .gjl_nav .logout i {
       width: 5px;
       height: 5px;
       border-radius: 50%;
       background: #8E96FF; }
-    nav .logout span {
+    .gjl_nav .logout span {
       font-size: 0.22rem;
       color: #8E96FF; }
 
@@ -516,7 +516,7 @@ nav {
     font-size: .2rem;
     color: #969CA0; }
 
-footer {
+.gjl_footer {
   width: 100%;
   height: 1rem;
   position: fixed;
@@ -526,24 +526,24 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  footer .logout h2 {
+  .gjl_footer .logout h2 {
     font-size: 0.22rem;
     color: #fff; }
-  footer .lis {
+  .gjl_footer .lis {
     height: 0.2rem;
     display: flex;
     justify-content: center;
     align-items: center; }
-    footer .lis i {
+    .gjl_footer .lis i {
       width: 5px;
       height: 5px;
       border-radius: 50%;
       background: #fff; }
-    footer .lis span {
+    .gjl_footer .lis span {
       width: 0.6rem;
       height: 0;
       border: 1px dashed #fff; }
-  footer .describe {
+  .gjl_footer .describe {
     font-size: 0.20rem;
     color: #fff; }
 
@@ -754,6 +754,8 @@ footer {
   background: #F1F4F5; }
   .order-nav .active {
     background: #f6de9d !important; }
+    .order-nav .active h3 {
+      color: #93908E; }
   .order-nav .order-tab {
     width: 100%;
     height: 1.2rem;

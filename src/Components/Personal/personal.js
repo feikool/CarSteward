@@ -7,7 +7,8 @@ import Newmessage from './newmessage';
 import Message from './message';
 import Order from './order';
 import Evaluate from './evaluate';
-import {BrowserRouter, Route} from 'react-router-dom';
+import Myfriend from './myfriend';
+import {Route} from 'react-router-dom';
 class Personal extends Component{
     render(){
         return(
@@ -19,6 +20,7 @@ class Personal extends Component{
             <Route path="/personal/message" component={Message}/>
             <Route path="/personal/order" component={Order}/>
             <Route path="/personal/evaluate" component={Evaluate}/>
+            <Route path="/personal/myfriend" component={Myfriend}/>
             </div>
         )
     }
