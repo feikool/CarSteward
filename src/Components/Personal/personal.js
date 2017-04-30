@@ -8,6 +8,9 @@ import Message from './message';
 import Order from './order';
 import Evaluate from './evaluate';
 import Myfriend from './myfriend';
+import Mymessage from './mymessage';
+import Business from './business-collect';
+import Commodity from './commodity-collect';
 import {Route} from 'react-router-dom';
 class Personal extends Component{
     render(){
@@ -21,6 +24,9 @@ class Personal extends Component{
             <Route path="/personal/order" component={Order}/>
             <Route path="/personal/evaluate" component={Evaluate}/>
             <Route path="/personal/myfriend" component={Myfriend}/>
+            <Route path="/personal/mymessage" component={Mymessage}/>
+            <Route path="/personal/Commodity" component={Commodity}/>
+            <Route path="/personal/Business" component={Business}/>
             </div>
         )
     }

@@ -96,7 +96,7 @@
 
 .spicturearticle, .sharearticle, .bpicturearticle {
   background: #fff;
-  margin-top: .2rem; }
+  margin: .2rem .12rem; }
 
 .rlm-user {
   display: flex;
@@ -304,4 +304,8 @@
     color: #35B2FF; }
 .rlm-temp{
   height: .88rem;
+}
+
+.rlm-record-wrap{
+  padding: 0 .05rem;
 }

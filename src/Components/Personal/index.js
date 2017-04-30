@@ -32,6 +32,7 @@ class Index extends Component{
                             <h3>晋A·8B728</h3>
                         </div>
                            <ul className="pff">
+                               <Link to="/personal/dollar">
                                <li className="photograph">
                                    <div className="top">
                                      <h1>658</h1><h2>钱包</h2>
@@ -40,6 +41,7 @@ class Index extends Component{
                                        <span>photograph 789</span>
                                    </div>
                                </li>
+                               </Link>
                                <Link to="/personal/myfriend">
                                <li className="following">
                                    <div className="top">
@@ -50,6 +52,7 @@ class Index extends Component{
                                    </div>
                                </li>
                                </Link>
+                               <Link to="/personal/commodity">
                                <li className="followers">
                                    <div className="top">
                                      <h1>96</h1><h2>收藏</h2>
@@ -58,6 +61,7 @@ class Index extends Component{
                                        <span>followers</span>
                                    </div>
                                </li>
+                               </Link>
                            </ul>
                        </div>
                        <div className="con-nav">
@@ -108,12 +112,15 @@ class Index extends Component{
                                <div className="icon-s icon-heart">
                                </div>
                            </div>
+                           <Link to="/personal/commodity">
                            <div className="designer-title">
                                <h1>收藏</h1><span>UI/GUI DESIGNER</span>
                            </div>
+                           </Link>
                            <div className="more">
                                <span>更多</span>
                            </div>
+
                        </div>
                        <ul className="shopping">
                            <li>

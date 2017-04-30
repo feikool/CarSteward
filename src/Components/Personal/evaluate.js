@@ -18,7 +18,7 @@ class Evaluate extends Component{
                 </div>
                 <div className="nav-empty"></div>
 
-                <div className="order-nav">
+                <div className="order-nav  order-wrap">
                     <div className="order-tab">
 
                         <div className="tab-left">

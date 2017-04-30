@@ -14,6 +14,7 @@ import Description from './Components/Index/description';
 //购物车
 import Shoppingcar from './Components/Index/shoppingcar';
 import Shoppingcarredact from './Components/Index/shoppingcar-redact';
+import Shoppingpay from './Components/Index/pay';
 
 // 车管家
 import Steward from './Components/Steward/steward';
@@ -80,6 +81,7 @@ class App extends Component {
              <Route path="/description" component={Description}/>
              <Route path="/shoppingcar" component={Shoppingcar}/>
              <Route path="/shoppingcar-redact" component={Shoppingcarredact}/>
+             <Route path="/shoppingpay" component={Shoppingpay}/>
 
            </div>
         </BrowserRouter>

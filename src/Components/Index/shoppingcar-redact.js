@@ -29,7 +29,7 @@ class Shopcarmain extends Component{
                 <div className="shopcarredact active" data-id={i}>
                     <div className="shopcarredact-cen"></div>
                 </div>
-                <li className="shopcar-main-item" key={i}>
+                <li className="hyf-shopcar-main-item" key={i}>
                     <div className="shopcar-left">
                         <div className="shopcar-img"><img src={require('./Img/'+v.shopavatar)} alt=""/></div>
                         <div className="shopcar-content">

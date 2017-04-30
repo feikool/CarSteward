@@ -27,7 +27,7 @@ class Main extends Component{
                     </Link>
                     <Link to="/general?xqid=4" href="#" className="rlm-main-btn-item">
                         <i></i>
-                        <span>车社区</span>
+                        <span>先生志</span>
                     </Link>
                 </div>
                 <Record/>

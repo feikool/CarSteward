@@ -24,7 +24,7 @@ class Shopcarmain extends Component{
     }
     render(){
         let list = this.state.data.map((v, i) => (
-            <li className="shopcar-main-item" key={i}>
+            <li className="hyf-shopcar-main-item" key={i}>
                 <div className="shopcar-left">
                     <div className="shopcar-img"><img src={require('./Img/'+v.shopavatar)} alt=""/></div>
                     <div className="shopcar-content">
