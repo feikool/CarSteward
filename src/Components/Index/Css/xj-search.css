@@ -1,0 +1,187 @@
+#root {
+  width: 100%;
+  height: 100%;
+  background: #fff; }
+
+.xj-hotsearchbigbox {
+  margin-top: 1.47rem;
+  width: 100%;
+  height: 1.92rem;
+  box-sizing: border-box; }
+  .xj-hotsearchbigbox .xj-hotsearchbox {
+    width: 100%;
+    height: 100%;
+    padding: 0 0.36rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
+.hotsearchhead {
+  width: 3.93rem;
+  height: 0.48rem;
+  margin: 0 auto; }
+  .hotsearchhead img {
+    width: 3.93rem;
+    height: 0.48rem; }
+
+.listfirst {
+  width: 6.1rem;
+  height: 0.46rem;
+  display: flex;
+  justify-content: space-between; }
+  .listfirst li {
+    color: #fff;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .listfirst li:nth-child(1) {
+    width: 1.67rem;
+    height: 0.46rem;
+    background: #41dc65;
+    border-radius: 0.46rem;
+    border: 1px dashed #41dc65; }
+  .listfirst li:nth-child(2) {
+    background: #ffc71c;
+    width: 2.1rem;
+    height: 0.46rem;
+    border-radius: 0.46rem; }
+  .listfirst li:nth-child(3) {
+    width: 1.37rem;
+    height: 0.46rem;
+    border-radius: 0.46rem;
+    background: #1cd2ff; }
+
+.listsecond {
+  width: 5.87rem;
+  height: 0.46rem;
+  display: flex;
+  justify-content: space-between; }
+  .listsecond li {
+    color: #fff;
+    font-size: 0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .listsecond li:nth-child(1) {
+    width: 1.37rem;
+    height: 0.46rem;
+    border-radius: 0.46rem;
+    background: #ffc71c; }
+  .listsecond li:nth-child(2) {
+    width: 1.67rem;
+    height: 0.46rem;
+    border-radius: 0.46rem;
+    background: #1cd2ff; }
+  .listsecond li:nth-child(3) {
+    width: 1.87rem;
+    height: 0.46rem;
+    border-radius: 0.46rem;
+    background: #41dc65; }
+
+.xj-historysearchbigbox {
+  width: 100%;
+  min-height: 3.4rem;
+  box-sizing: border-box;
+  margin-top: 0.8rem; }
+  .xj-historysearchbigbox .xj-historysearchbox {
+    width: 100%;
+    padding: 0 0.36rem;
+    box-sizing: border-box; }
+  .xj-historysearchbigbox .historysearchbox {
+    box-sizing: border-box;
+    width: 100%;
+    height: 0.5rem;
+    padding: 0 0.36rem;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.24rem;
+    color: #aeaeae;
+    box-sizing: border-box;
+    margin-top: 0.2rem; }
+    .xj-historysearchbigbox .historysearchbox li:nth-child(1) {
+      width: 4px;
+      height: 100%;
+      background: #00A7D1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 2px 0 0 2px; }
+    .xj-historysearchbigbox .historysearchbox li:nth-child(3) {
+      width: 0.25rem;
+      height: 0.25rem;
+      border-radius: 50%;
+      color: #fff;
+      background: #aeaeae;
+      font-size: 0.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+.xj-rencentbigbox {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.73rem; }
+  .xj-rencentbigbox .xj-rencent {
+    width: 3.93rem;
+    height: 0.48rem;
+    background: url("../Img/jingqi.png") no-repeat center;
+    background-size: cover;
+    margin: 0 auto; }
+  .xj-rencentbigbox .xj-rencentbox {
+    width: 100%;
+    padding: 0 0.36rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.37rem; }
+    .xj-rencentbigbox .xj-rencentbox .rencentbox li {
+      width: 2.1rem;
+      height: 2.9rem;
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2); }
+      .xj-rencentbigbox .xj-rencentbox .rencentbox li .xj-img {
+        width: 100%;
+        height: 68%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f9f8f9;
+        position: relative; }
+        .xj-rencentbigbox .xj-rencentbox .rencentbox li .xj-img img {
+          width: 0.86rem;
+          height: 1.28rem; }
+        .xj-rencentbigbox .xj-rencentbox .rencentbox li .xj-img a {
+          display: block;
+          width: 0.5rem;
+          height: 0.5rem;
+          border-radius: 50%;
+          background: #ffc31c;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 0.28rem;
+          position: absolute;
+          right: 5px;
+          bottom: -0.25rem; }
+      .xj-rencentbigbox .xj-rencentbox .rencentbox li span p:nth-child(1) {
+        font-size: 0.24rem;
+        color: #474747; }
+      .xj-rencentbigbox .xj-rencentbox .rencentbox li span p:nth-child(2) i:nth-child(1) {
+        color: #aeaeae;
+        font-weight: bold;
+        font-size: 0.14rem; }
+      .xj-rencentbigbox .xj-rencentbox .rencentbox li span p:nth-child(2) i:nth-child(2) {
+        color: #b3b3b3;
+        font-size: 12px; }
+      .xj-rencentbigbox .xj-rencentbox .rencentbox li span p:nth-child(3) {
+        font-size: 0.14rem;
+        color: #fe9423; }

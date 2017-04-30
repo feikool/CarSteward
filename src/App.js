@@ -42,6 +42,9 @@ import Violation from './Components/Index/violation';
 import Prizetopic from './Components/Index/prizetopic';
 //搜索
 import  Search from './Components/Index/search';
+//地图搜索
+import Mapsearch from './Components/Index/mapsearch';
+import Searchresult from './Components/Index/searchresult'
 // =================================================================================
 //       下面写要url切换的路由路径， 和要切换到的组件页面   除了'/' 需要exact  别的只写path
 // =================================================================================
@@ -68,10 +71,12 @@ class App extends Component {
 
 
 
-             <Route path="/shoppin" component={Shopping}></Route>
-             <Route path="/violation" component={Violation}></Route>
-             <Route path="/prizetopic" component={Prizetopic}></Route>
+             <Route path="/shoppin" component={Shopping}/>
+             <Route path="/violation" component={Violation}/>
+             <Route path="/prizetopic" component={Prizetopic}/>
              <Route path="/search" component={Search}></Route>
+             <Route path="/mapsearch" component={Mapsearch}/>
+             <Route path="/searchresult" component={Searchresult}/>
 
              <Route path="/cararticles" component={Cararticles}/>
              <Route path="/parts" component={Parts}/>

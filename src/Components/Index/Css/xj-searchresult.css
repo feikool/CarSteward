@@ -1,0 +1,82 @@
+.mapbigbox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0; }
+  .mapbigbox img {
+    width: 100%;
+    height: 100%; }
+
+.xj-shopbigbox {
+  width: 100%;
+  height: 1.42rem;
+  padding: 0 0.24rem;
+  position: absolute;
+  bottom: 0.55rem; }
+  .xj-shopbigbox .shopbox {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: relative; }
+    .xj-shopbigbox .shopbox .xj-shopleftbox {
+      width: 1.42rem;
+      height: 1.65rem;
+      position: absolute;
+      bottom: 0.13rem;
+      left: 0.1rem; }
+      .xj-shopbigbox .shopbox .xj-shopleftbox .tx {
+        width: 100%;
+        height: 1.15rem; }
+      .xj-shopbigbox .shopbox .xj-shopleftbox .starbox {
+        width: 1.28rem;
+        height: 0.20rem;
+        display: flex;
+        justify-content: space-between; }
+        .xj-shopbigbox .shopbox .xj-shopleftbox .starbox li img {
+          height: 100%;
+          width: 0.2rem; }
+    .xj-shopbigbox .shopbox .xj-shoprightbox {
+      width: 5rem;
+      height: 1.18rem;
+      margin-left: 1.85rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 0.12rem;
+      position: relative; }
+      .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(1) {
+        width: 2.72rem;
+        height: 0.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(1) p {
+          color: #343333; }
+        .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(1) p:nth-child(3) img {
+          width: 0.57rem;
+          height: 0.30rem; }
+      .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(2) {
+        font-size: 0.24rem;
+        color: #848484; }
+      .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(3) {
+        width: 5rem;
+        height: 9px;
+        background: url("../Img/jiange_03.png");
+        background-size: cover; }
+      .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(4) {
+        width: 100%;
+        height: 0.15rem;
+        display: flex;
+        justify-content: space-between; }
+        .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(4) span {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+      .xj-shopbigbox .shopbox .xj-shoprightbox li:nth-child(5) {
+        width: 0.53rem;
+        height: 0.53rem;
+        background: url("../Img/qjin_03.png");
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: 0.24rem; }
