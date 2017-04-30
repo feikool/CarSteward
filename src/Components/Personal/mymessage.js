@@ -73,7 +73,7 @@ class Mymessage extends Component{
                     </li>
                 </ul>
 
-                <ul className="friend-nav message-nav">
+                <ul className="friend-nav friend-message-nav">
                     S
                     <li>
                         <div className="con-show white-header">
