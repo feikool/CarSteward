@@ -400,7 +400,7 @@ body {
       font-size: 0.22rem;
       color: #8E96FF; }
 
-.accounts, .newmessage, .message, .myfriend, .order, .commodity, .business {
+.accounts, .newmessage, .message, .myfriend, .order {
   width: 100%;
   height: 100%;
   background: linear-gradient(45deg, #1CACFF, #1D9DE7); }
@@ -894,43 +894,11 @@ body {
         font-size: 0.18rem; }
 
 .friend-tab {
-  width: 100%;
   height: 1.2rem;
-  display: flex;
-  position: fixed;
-  top: 0.88rem;
-  background: linear-gradient(45deg, #1CACFF, #1D9DE7);
-  z-index: 1 !important; }
-  .friend-tab .friend-link {
-    width: 100%;
-    display: flex; }
+  display: flex; }
   .friend-tab .f-tab {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative; }
-  .friend-tab .adtive::after {
-    width: 50%;
-    content: '';
-    border-bottom: 4px solid #fff;
-    position: absolute;
-    bottom: 0px; }
-  .friend-tab .adtive::before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-left: 2px solid transparent;
-    border-right: 2px solid transparent;
-    border-bottom: 4px solid #fff;
-    position: absolute;
-    bottom: 4px;
-    left: 50%; }
-  .friend-tab .f-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
+    display: flex; }
   .friend-tab .friend-icon {
     flex: 1;
     display: flex;
@@ -961,173 +929,10 @@ body {
 
 .friend-nav {
   width: 100%;
-  padding: 2.23rem 0.25rem 0.15rem;
-  height: auto;
-  background: #f6f6f6; }
+  padding: 0.15rem 0.25rem;
+  height: auto; }
   .friend-nav li {
     width: 100%;
     height: 1.25rem;
     background: #fff;
-    margin-bottom: 0.15rem;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-    display: flex; }
-    .friend-nav li .con-content {
-      flex: 5;
-      display: flex;
-      flex-direction: column; }
-    .friend-nav li .show-con, .friend-nav li .show-title {
-      flex: 1;
-      display: flex;
-      justify-content: space-between; }
-    .friend-nav li .show-title {
-      align-items: center; }
-      .friend-nav li .show-title h3 {
-        font-size: 0.2rem;
-        font-weight: 600; }
-      .friend-nav li .show-title span {
-        width: 0.4rem;
-        height: 0.4rem;
-        border-radius: 50%;
-        background: rgba(255, 215, 28, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 0.33rem; }
-        .friend-nav li .show-title span i {
-          width: 0.3rem;
-          height: 0.3rem;
-          border-radius: 50%;
-          background: #ffd71c;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 0.14rem;
-          color: #fff; }
-    .friend-nav li .show-con {
-      align-items: flex-start;
-      font-size: 0.18rem;
-      color: #ABABAB; }
-      .friend-nav li .show-con span {
-        margin-right: 0.12rem;
-        align-self: flex-end;
-        margin-bottom: 0.28rem; }
-
-.con-show {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .con-show .con-show01 {
-    width: 0.8rem;
-    height: 1rem;
-    float: left;
-    margin-left: 0.1rem;
-    overflow: hidden;
-    transform: rotate(120deg); }
-    .con-show .con-show01 .con-show02 {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      transform: rotate(-60deg); }
-      .con-show .con-show01 .con-show02 .con-show03 {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        transform: rotate(-60deg);
-        position: relative;
-        background: pink; }
-
-.newfriends {
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row !important; }
-  .newfriends h2 {
-    font-size: 0.28rem; }
-
-.icon-friends {
-  font-size: 0.55rem;
-  color: #5cc4ff; }
-
-.message-nav {
-  width: 100%;
-  padding: 0 0.25rem;
-  height: auto;
-  background: #f6f6f6; }
-  .message-nav .white-header {
-    border-bottom: 1px solid #fff; }
-  .message-nav .con-white {
-    border-bottom: 1px solid #ABABAB; }
-  .message-nav li {
-    margin-bottom: 0; }
-  .message-nav .show-title {
-    justify-content: flex-start !important; }
-    .message-nav .show-title .linkurl {
-      font-size: 0.22rem;
-      margin-left: 0.2rem; }
-      .message-nav .show-title .linkurl i {
-        color: #5cc4ff; }
-
-.commodity .collect-tab {
-  width: 100%;
-  height: 1.1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  top: 0.88rem;
-  z-index: 1 !important; }
-  .commodity .collect-tab .collect-wrap {
-    width: 4rem;
-    height: .8rem;
-    border-radius: .4rem;
-    background: linear-gradient(45deg, #1CACFF, #1D9DE7);
-    display: flex;
-    overflow: hidden; }
-  .commodity .collect-tab .c-active {
-    background: #fff; }
-    .commodity .collect-tab .c-active .c-icon {
-      color: #1cacff !important; }
-    .commodity .collect-tab .c-active .c-tab-right {
-      color: #000; }
-    .commodity .collect-tab .c-active .ctr span {
-      color: #1cacff; }
-  .commodity .collect-tab .collect-link {
-    flex: 1;
-    display: flex;
-    color: #fff; }
-  .commodity .collect-tab .c-icon {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 0.5rem;
-    font-style: italic; }
-  .commodity .collect-tab .c-tab-right {
-    flex: 2;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column; }
-
-.commodity .c-en {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  font-size: 0.16rem; }
-
-.commodity .ctr {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start; }
-  .commodity .ctr span {
-    color: #fff;
-    font-size: 0.18rem; }
-  .commodity .ctr i {
-    font-size: 0.16rem;
-    padding: 0 0.05rem; }
-  .commodity .ctr h3 {
-    font-size: 0.16rem; }
+    box-shadow: 0 0 0 rgba(237, 237, 237, 0.5); }

@@ -1,34 +1,35 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
-class Myfriend extends Component{
+class Business extends Component{
     render(){
         return(
-            <div className="myfriend">
+            <div className="commodity">
                 <div className="gjl_header">
                     <Link to="/personal" className="act">
                         <div className="account icon-arrow"> </div>
                     </Link>
                     <div className="title">
-                        <span className="list-1"><i></i><i></i><i></i></span><h1>好友</h1><span className="list-2"><i></i><i></i><i></i></span>
+                        <span className="list-1"><i></i><i></i><i></i></span><h1>我的收藏</h1><span className="list-2"><i></i><i></i><i></i></span>
                     </div>
                 </div>
-                <div className="friend-tab">
-                    <Link to="/personal/myfriend" className="friend-link">
-                    <div className="f-tab friend-message adtive">
-                        <div className="f-wrap">
-                            <div className="friend-icon icon-message"></div>
-                            <div className="f-tab-right"><h3>消息</h3><span>MESSAGE</span></div>
-                        </div>
+                <div className="collect-tab">
+                    <div className="collect-wrap">
+                        <Link to="/personal/commodity" className="collect-link ">
+
+
+                                    <div className="c-icon">A</div>
+                                    <div className="c-tab-right"><div className="c-en"><span>COMMODITY</span></div><div className="ctr"><span>LE</span><i>|</i><h3>商品</h3></div></div>
+
+                        </Link>
+                        <Link to="/personal/business" className="collect-link c-active">
+
+
+                                    <div className="c-icon">A</div>
+                                    <div className="c-tab-right"><div className="c-en"><span>BUSINESS</span></div><div className="ctr"><span>LE</span><i>|</i><h3>商家</h3></div></div>
+
+
+                        </Link>
                     </div>
-                    </Link>
-                    <Link to="/personal/mymessage" className="friend-link">
-                    <div className="f-tab friends">
-                        <div className="f-wrap">
-                        <div className="friend-icon icon-person"></div>
-                            <div className="f-tab-right"><h3>好友</h3><span>FRIENDS</span></div>
-                        </div>
-                    </div>
-                    </Link>
                 </div>
                 <ul className="friend-nav">
                     <li>
@@ -164,4 +165,4 @@ class Myfriend extends Component{
         )
     }
 }
-export default Myfriend;
+export default Business;
