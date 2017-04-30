@@ -24,6 +24,7 @@ import Calendar from './Components/Steward/calendar';
 import Order from './Components/Steward/order';
 import Pay from './Components/Steward/pay';
 import Maskpay from './Components/Steward/maskpay';
+import Condition from './Components/Steward/condition';
 // 车友汇
 import Frined from './Components/Friend/friend';
 // 车常识
@@ -60,6 +61,7 @@ class App extends Component {
              <Route path="/order" component={Order}/>
              <Route path="/pay" component={Pay}/>
              <Route path="/maskpay" component={Maskpay}/>
+             <Route path="/condition" component={Condition}/>
              <Route path="/frined" component={Frined}/>
              <Route path="/general" component={General}/>
              <Route path="/detailer" component={Detailer}/>
