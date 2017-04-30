@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Order extends Component{
     render(){
         return(
             <div className="order">
-                <header>
+                <div className="gjl_header">
                     <Link to="/personal" className="act">
                         <div className="account icon-arrow"></div>
                     </Link>
@@ -16,7 +16,7 @@ class Order extends Component{
                     <Link to="/personal/account" className="set">
                         <div className="setting icon-edit"> </div>
                     </Link>
-                </header>
+                </div>
                 <div className="nav-empty"></div>
 
                 <div className="order-nav">
@@ -121,7 +121,7 @@ class Order extends Component{
 
                     </div>
                 </div>
-                <footer>
+                <div className="gjl_footer">
                     <div className="logout">
                         <h2>再来一单</h2>
                     </div>
@@ -131,7 +131,7 @@ class Order extends Component{
                     <div className="describe">
                         <span>ANTHOER ONE</span>
                     </div>
-                </footer>
+                </div>
             </div>
         )
     }

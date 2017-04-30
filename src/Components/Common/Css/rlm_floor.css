@@ -10,7 +10,7 @@
     left: 0;
     display: flex; }
 
-.rlm-footer a {
+.rlm-footer>a {
     flex: 1;
     color: #ADACAD;
     flex-direction: column;
@@ -18,7 +18,7 @@
     justify-content: space-around;
     align-items: center; }
 
-.rlm-footer a:hover {
+.rlm-footer a.hot {
     color: #1E9FEA; }
 
 .rlm-footer a i {

@@ -1,15 +1,20 @@
 
 import React,{Component} from 'react';
-// import './Css/gjl_homepage.css';
 import Footer from  './footer';
-import Header from './header';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class UserAccount extends Component{
     render(){
         return(
             <div className="accounts">
-               <Header/>
+                <div className="gjl_header">
+                    <Link to="/personal" className="act">
+                        <div className="account icon-arrow"> </div>
+                    </Link>
+                    <div className="title">
+                        <span className="list-1"><i></i><i></i><i></i></span><h1>我的帐号</h1><span className="list-2"><i></i><i></i><i></i></span>
+                    </div>
+                </div>
                 <div className="nav-empty"></div>
                 <div className="header-bg-empty"></div>
                 <div className="account-nav user-nav">

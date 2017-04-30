@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 // import './Css/gjl_homepage.css';
 import Header from './header';
 import Footer from '../Common/footer';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 class Index extends Component{
     render(){
@@ -10,7 +10,7 @@ class Index extends Component{
            <div className="personal">
                <Header/>
                <div className="header-empty"></div>
-               <nav>
+               <div className="gjl_nav">
                    <div className="nav-empty" style={{background:'none'}}></div>
                    <div className="nav-header">
                        <div className="personal-title">
@@ -32,6 +32,7 @@ class Index extends Component{
                             <h3>晋A·8B728</h3>
                         </div>
                            <ul className="pff">
+                               <Link to="/personal/dollar">
                                <li className="photograph">
                                    <div className="top">
                                      <h1>658</h1><h2>钱包</h2>
@@ -40,6 +41,8 @@ class Index extends Component{
                                        <span>photograph 789</span>
                                    </div>
                                </li>
+                               </Link>
+                               <Link to="/personal/myfriend">
                                <li className="following">
                                    <div className="top">
                                      <h1>02</h1><h2>我的好友</h2>
@@ -48,6 +51,8 @@ class Index extends Component{
                                        <span>following</span>
                                    </div>
                                </li>
+                               </Link>
+                               <Link to="/personal/commodity">
                                <li className="followers">
                                    <div className="top">
                                      <h1>96</h1><h2>收藏</h2>
@@ -56,6 +61,7 @@ class Index extends Component{
                                        <span>followers</span>
                                    </div>
                                </li>
+                               </Link>
                            </ul>
                        </div>
                        <div className="con-nav">
@@ -106,12 +112,15 @@ class Index extends Component{
                                <div className="icon-s icon-heart">
                                </div>
                            </div>
+                           <Link to="/personal/commodity">
                            <div className="designer-title">
                                <h1>收藏</h1><span>UI/GUI DESIGNER</span>
                            </div>
+                           </Link>
                            <div className="more">
                                <span>更多</span>
                            </div>
+
                        </div>
                        <ul className="shopping">
                            <li>
@@ -160,7 +169,7 @@ class Index extends Component{
                            </div>
                        </div>
                    </div>
-               </nav>
+               </div>
                <div className="footer-empty"></div>
                <Footer/>
 

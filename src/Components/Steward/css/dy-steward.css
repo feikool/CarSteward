@@ -635,6 +635,14 @@
     bottom:0;
     z-index: 999;
 }
+.dy-maskorder-return{
+    width: 100%;
+    height: 2rem;
+    left:0;
+    top: 0;
+    position: absolute;
+
+}
 .dy-maskorder .dy-maskorder-zhiwen{
     position: absolute;
     left:0;
@@ -708,7 +716,9 @@
     height: 0.88rem;
     background: url("../imgs/rbutton.png")center/contain no-repeat;
 }
-
+.dy-paymain ul li:nth-of-type(3) a{
+   color: #fff;
+}
 .dy-maskyhq{
     width: 100%;
     height: 100vh;
@@ -726,4 +736,197 @@
     width: 100%;
     height: 6.16rem;
     background: url("../imgs/youhuiquan.png")center/contain no-repeat;
+}
+.dy-timeline-num{
+    position: absolute;
+    left: 5%;
+    top: 0.9rem;
+    width: 94%;
+    margin: 0 auto;
+    font-size: 0.35rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.dy-timeline{
+    position: relative;
+    width:94%;
+    margin: 0 auto;
+    margin-top: -2rem;
+    background: #fff;
+    flex-direction: column;
+
+}
+.timeline-line {
+    position: absolute;
+    left: 1.6rem;
+    top: 8%;
+    height: 88%;
+    width: 2px;
+    background: #009688;
+    z-index: 0;
+}
+.timeline-content .dot-circle .ddzt{
+    position: absolute;
+    left: 0;
+    top: 0.05rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/ddzt.png")center/contain no-repeat;
+
+}
+.timeline-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1.6rem;
+    line-height: 0.5rem;
+
+}
+.timeline-main{
+    display: flex;
+    flex-direction: column;
+}
+.timeline-main h3 b{
+    color: #1C9EE9;
+    width: 20%;
+}
+.timeline-month .date b{
+    color: #1C9EE9;
+    width:20%;
+
+}
+.timeline-content .dot-circle {
+    width: 0.88rem;
+    height: 0.88rem;
+    position: absolute;
+    left: -0.52rem;
+    top: 0.3rem;
+    background: #fff;
+    display: inline-block;
+    z-index: 2;
+}
+
+.timeline-content .dot-circle .paychenggong{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/paychenggong.png")center/contain no-repeat;
+}
+.timeline-content .dot-circle .orders{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/Floppy.png")center/contain no-repeat;
+}
+.timeline-content .dot-circle .viacar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/viacar.png")center/contain no-repeat;
+}
+.timeline-content .dot-circle .thecar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/thecar.png")center/contain no-repeat;
+}
+.timeline-content .dot-circle .fulfill{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../imgs/fulfill.png")center/contain no-repeat;
+}
+.timeline-content{
+    width: 70%;
+    position: relative;
+}
+.timeline-con {
+    width: 80%;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    z-index: 1;
+    color: #474747;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.28rem;
+}
+.timeline-con .content-en b{
+    color: #1CACFF;
+    font-size: 0.3rem;
+}
+.timeline-con .content-en span{
+    height: 0.3rem;
+    color: #ABABAB;
+    display: inline-block;
+}
+.timeline-con .content-en i{
+    color: #FFD71C;
+    font-size: 0.26rem;
+    margin-top: -0.1rem;
+    display: inline-block;
+}
+.timeline-con .conten-nr span{
+    color: #ABABAB;
+    font-size: 0.26rem;
+}
+.timeline-con .conten-nr i{
+    color: #474747;
+    font-size: 0.26rem;
+}
+.timeline-con .content-cn{
+    font-size: 0.28rem;
+}
+.dy_footer {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    background: #FFD720;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+}
+.dy_footer .logout h2 {
+    font-size: 0.22rem;
+    color: #fff;
+}
+.dy_footer .lis {
+    height: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dy_footer .lis i {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+.dy_footer .lis span {
+    width: 0.6rem;
+    height: 0;
+    border: 1px dashed #fff;
+}
+.dy_footer .describe {
+    font-size: 0.20rem;
+    color: #fff;
+}
+.dy-condition{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }

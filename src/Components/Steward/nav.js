@@ -5,7 +5,7 @@ class Nav extends Component{
         return(
             <div className="dy-nav-wrap">
                 <div className="dy-nav-btn-wrap container">
-                    <Link to="/general" className="dy-nav-btn-item">
+                    <Link to="steward" className="dy-nav-btn-item">
                         <i></i>
                         <span>综合排行</span>
                     </Link>

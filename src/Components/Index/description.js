@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from './header';
 import {Link} from 'react-router-dom';
+
 class Descmain extends Component {
     render() {
         return (
@@ -125,15 +126,18 @@ class Review extends Component {
 }
 
 class Footer extends  Component{
+    state ={
+        flag:true,
+    }
     render(){
         return(
             <footer className="hyf-desc-footer">
                 <div className="footer-play">
                     <div className="footer-shopping"><Link to="/shoppingcar"></Link></div>
-                    <div className="footer-pay"><a href="#">立即购买</a></div>
+                    <div className="footer-pay" onClick={()=>this.setState({flag:!this.state.flag})}><a href="#">立即购买</a></div>
                     <div className="footer-collect"><Link to="/"></Link></div>
                 </div>
-                <div className="hyf-shopping-yes">
+                <div className="hyf-shopping-yes" style={{display:this.state.flag !== true? 'flex':'none'}}>
                     <div className="shopping-yes-con">
                         <div className="title">确认商品信息</div>
                         <div className="shipping-con">
@@ -154,9 +158,10 @@ class Footer extends  Component{
                                     <div className="shopping-num-1"><i></i></div>
                                 </div>
                             </div>
-                            <div className="footer-pay"><Link to="/Shoppingcar">立即购买 | $<span>636</span></Link></div>
+                            <div className="footer-pay"><Link to="/shoppingpay">立即购买 | $<span>636</span></Link></div>
                         </div>
                     </div>
+                    <div className="flag" onClick={()=>this.setState({flag:true})}> </div>
                 </div>
             </footer>
         )
