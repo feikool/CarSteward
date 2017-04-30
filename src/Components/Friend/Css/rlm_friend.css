@@ -74,6 +74,7 @@
   display: flex; }
   .rlm-main-btn-wrap > .rlm-main-btn-item {
     flex: 1;
+    color: #373840;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -96,6 +97,8 @@
 
 .spicturearticle, .sharearticle, .bpicturearticle {
   background: #fff;
+  display: block;
+  color: #616161;
   margin: .2rem .12rem; }
 
 .rlm-user {
@@ -103,6 +106,7 @@
   justify-content: space-between;
   padding: .2rem .12rem;
   color: #B1B1B2;
+  margin-top: .9rem;
   border-bottom: 1px dashed #F5F4F5; }
   .rlm-user .rlm-user-head {
     width: .9rem;
@@ -154,6 +158,7 @@
   border-top: 1px dashed #F5F4F5; }
   .rlm-comment .rlm-comment-item {
     flex: 1;
+    color: #373840;
     font-size: .22rem;
     display: flex;
     align-items: center;

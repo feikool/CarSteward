@@ -1,13 +1,14 @@
 // 分享文章组件
 import React, { Component } from 'react';
 import User from './friend_user';
+import {Link} from 'react-router-dom';
 class ShareArticle extends Component{
     render(){
         if(!this.props.data){
             return null;
         }
         return(
-            <div className="sharearticle">
+            <Link to='/detailer' className="sharearticle">
                 <User data={this.props.data} title={this.props.title}/>
                 <div className="sa-content">
                     <div className="sa-content-wrap">
@@ -35,7 +36,7 @@ class ShareArticle extends Component{
                         <span>{this.props.data['reply']}</span>
                     </a>
                 </div>
-            </div>
+            </Link>
         )
     }
 }

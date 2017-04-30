@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import User from './friend_user';
+import {Link} from 'react-router-dom';
 class BPictureArticle extends Component{
     render(){
         if(!this.props.data){
@@ -7,7 +8,7 @@ class BPictureArticle extends Component{
         }
 
         return(
-            <div className="bpicturearticle">
+            <Link to='/detailer' className="bpicturearticle">
                 <User data={this.props.data} title={this.props.title}/>
                 <div className="bpa-content-wrap">
                     <p>{this.props.data['e_title']}</p>
@@ -28,7 +29,7 @@ class BPictureArticle extends Component{
                         <span>{this.props.data['reply']}</span>
                     </a>
                 </div>
-            </div>
+            </Link>
         )
     }
 }

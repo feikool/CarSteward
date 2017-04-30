@@ -1,6 +1,7 @@
 // 小图片文章组件
 import React, { Component } from 'react';
 import User from './friend_user';
+import {Link} from 'react-router-dom';
 class SPictureArticle extends Component{
     render(){
         if(!this.props.data){
@@ -8,7 +9,7 @@ class SPictureArticle extends Component{
         }
         let LisImg = this.props.data["e_img"].split(',');
         return(
-            <div className="spicturearticle">
+            <Link to='/detailer' className="spicturearticle">
                 <User data={this.props.data} title={this.props.title}/>
                 <div className="rlm-spa-img-lis-wrap">
                     <p>{this.props.data["e_text"]}</p>
@@ -32,7 +33,7 @@ class SPictureArticle extends Component{
                         <span>{this.props.data["reply"]}</span>
                     </a>
                 </div>
-            </div>
+            </Link>
         )
     }
 }
