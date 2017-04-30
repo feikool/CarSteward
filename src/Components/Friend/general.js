@@ -43,10 +43,17 @@ class General extends Component{
             });
     };
     render(){
+        let elT,elP;
+        if(!this.props.temp){
+             elT = <Header title={this.title} left={"icon-arrow"} right={"icon-heart"}/>;
+            elP =  <div className="rlm-temp"></div>;
+        }else{
+            elT =null;
+            elP =null;
+        }
         return(
             <div className="general">
-                <Header title={this.title} left={"icon-arrow"} right={"icon-heart"}/>
-                <div className="rlm-temp"></div>
+                {elT}{elP}
                 <SPictureArticle data={this.state.dataSource[0]} title={this.title}/>
                 <BPictureArticle data={this.state.dataSource[1]} title={this.title}/>
                 <ShareArticle data={this.state.dataSource[2]} title={this.title}/>
