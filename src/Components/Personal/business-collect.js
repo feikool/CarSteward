@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 class Business extends Component{
     render(){
         return(
-            <div className="commodity">
+            <div className="business">
                 <div className="gjl_header">
                     <Link to="/personal" className="act">
                         <div className="account icon-arrow"> </div>
@@ -31,134 +31,54 @@ class Business extends Component{
                         </Link>
                     </div>
                 </div>
-                <ul className="friend-nav">
+                <ul className="business-nav">
                     <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="bus-show">
+                            <div className="bus-wrap"></div>
                         </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
+                        <div className="bus-content">
+                            <div className="bus-con-left">
+                                <div className="show-title"><h3>METAL DECOR</h3></div>
+                                <div className="show-con"><p>金属汽车</p><span>摆件</span></div>
+                                <div className="show-dis"><span>星空灰</span></div>
+                                 <div className="show-x">XXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div className="show-money">$ 468.00</div>
+                            </div>
+                            <div className="bus-con-right"><i>+</i><span>2</span><i>—</i></div>
                         </div>
                     </li>
                     <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="bus-show">
+                            <div className="bus-wrap"></div>
                         </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
+                        <div className="bus-content">
+                            <div className="bus-con-left">
+                                <div className="show-title"><h3>METAL DECOR</h3></div>
+                                <div className="show-con"><p>金属汽车</p><span>摆件</span></div>
+                                <div className="show-dis"><span>星空灰</span></div>
+                                 <div className="show-x">XXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div className="show-money">$ 468.00</div>
+                            </div>
+                            <div className="bus-con-right"><i>+</i><span>2</span><i>—</i></div>
                         </div>
                     </li>
                     <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="bus-show">
+                            <div className="bus-wrap"></div>
                         </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
+                        <div className="bus-content">
+                            <div className="bus-con-left">
+                                <div className="show-title"><h3>METAL DECOR</h3></div>
+                                <div className="show-con"><p>金属汽车</p><span>摆件</span></div>
+                                <div className="show-dis"><span>星空灰</span></div>
+                                 <div className="show-x">XXXXXXXXXXXXXXXXXXXXXXXXXX</div>
+                                <div className="show-money">$ 468.00</div>
+                            </div>
+                            <div className="bus-con-right"><i>+</i><span>2</span><i>—</i></div>
                         </div>
                     </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div className="con-show">
-                            <div className="con-show01">
-                                <div className="con-show02">
-                                    <div className="con-show03 bg01">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="con-content">
-                            <div className="show-title"><h3>买买提ヾ(o◕∀◕)ﾉヾ</h3><span><i>2</i></span></div>
-                            <div className="show-con"><p>窗含西岭千秋雪，门泊东吴万里船...</p><span>24分钟之前</span></div>
-                        </div>
-                    </li>
-
+                    <div className="bus-cha"><span>没有更多了</span>
+                    <div className="bus-lis"><i></i><i></i><i></i></div></div>
                 </ul>
             </div>
 
