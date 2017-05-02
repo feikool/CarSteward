@@ -21,7 +21,7 @@ import Steward from './Components/Steward/steward';
 //靓车堂
 import Nicecar from './Components/Steward/nicecar';
 import Plus from './Components/Steward/plus';
-import Calendar from './Components/Steward/calendar';
+import Calendars from './Components/Steward/calendars';
 import Order from './Components/Steward/order';
 import Pay from './Components/Steward/pay';
 import Maskpay from './Components/Steward/maskpay';
@@ -61,7 +61,7 @@ class App extends Component {
              <Route path="/steward" component={Steward}/>
              <Route path="/nicecar" component={Nicecar}/>
              <Route path="/plus" component={Plus}/>
-             <Route path="/calendar" component={Calendar}/>
+             <Route path="/calendars" component={Calendars}/>
              <Route path="/order" component={Order}/>
              <Route path="/pay" component={Pay}/>
              <Route path="/maskpay" component={Maskpay}/>

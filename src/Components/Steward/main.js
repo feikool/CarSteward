@@ -51,7 +51,7 @@ class Button extends Component{
         return(
             <div className="dy-button">
                 <div className="dy-init">
-                    <Link to="/calendar" className="dy-left-button">预约洗车</Link>
+                    <Link to="/calendars" className="dy-left-button">预约洗车</Link>
                     <Link to="/order" className="dy-right-button">立即结算</Link>
                 </div>
             </div>

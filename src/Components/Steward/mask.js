@@ -7,7 +7,7 @@ class Mask extends Component{
             <div className="mask">
                 <div className="calendar" style={{ width: 320, border: '1px solid #d9d9d9', borderRadius: 4 ,}}>
                     <Calendar fullscreen={false} onPanelChange={onPanelChange} />
-                    <div className="time">
+                    <div className="dy-masktime">
                         <ul>
                             <li>8:00-10:00</li>
                             <li>10:00-12:00</li>
